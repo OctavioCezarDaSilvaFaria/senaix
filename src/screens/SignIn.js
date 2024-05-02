@@ -36,7 +36,7 @@ export default function SignIn() {
         <Feather name="lock" size={24} color="#8a8787"/>
           <TextInput 
           style={style.input} 
-          placeholder="Digite ssua senha" 
+          placeholder="Digite sua senha" 
           placeholderTextColor="#8a8787"
           secureTextEntry
           />
@@ -50,7 +50,7 @@ export default function SignIn() {
 const style = StyleSheet.create({ 
   container: {
     flex: 1,
-    alignItems: "flex-start",
+    alignItems: "stretch",
     justifyContent: "space-between",
     padding: 16,
   },
